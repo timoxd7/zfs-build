@@ -36,6 +36,9 @@ This is based off 2.3.0, so update the version accordingly. Go into the parent f
 ## Install zfs
 sudo apt install ./openzfs-zfs-dkms_2.3.0-1_all.deb ./openzfs-zfsutils_2.3.0-1_arm64.deb ./openzfs-zfs-zed_2.3.0-1_arm64.deb ./openzfs-libnvpair3_2.3.0-1_arm64.deb ./openzfs-libuutil3_2.3.0-1_arm64.deb ./openzfs-libzfs6_2.3.0-1_arm64.deb ./openzfs-libzpool6_2.3.0-1_arm64.deb
 
+# Or
+sudo apt install ./openzfs-zfs-dkms_* ./openzfs-zfsutils_* ./openzfs-zfs-zed_* ./openzfs-libnvpair3_* ./openzfs-libuutil3_* ./openzfs-libzfs6_* ./openzfs-libzpool6_*
+
 ## Install omv integration
 sudo apt install openmediavault-zfs
 ```
